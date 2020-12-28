@@ -39,5 +39,5 @@ class Layout extends Component {
 }
 
 
->>>>>>> e5e7bbff359a9bda3fc4efcd6ae979e62dccab2d
+
 export default Layout; 
