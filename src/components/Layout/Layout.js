@@ -29,7 +29,6 @@ class Layout extends Component {
                 <div>ّfateme beiramiiiiiiiiiiiiiiiiiii</div>
                 <div>helloooo</div>
                 <p>this is second commit</p>
-                <p>hi</p>
                 <Render
                     currency={this.state.currency} 
                 />
@@ -39,4 +38,5 @@ class Layout extends Component {
 }
 
 
+>>>>>>> e5e7bbff359a9bda3fc4efcd6ae979e62dccab2d
 export default Layout; 
