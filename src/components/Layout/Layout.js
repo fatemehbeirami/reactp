@@ -21,6 +21,7 @@ class Layout extends Component {
                     });
                 }
                 this.setState({ currency: fetchCurrency });
+                // Salam!
             })
     }
     render() {
