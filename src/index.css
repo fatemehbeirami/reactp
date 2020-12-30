@@ -16,5 +16,7 @@ code {
   color: antiquewhite;
 }
 .info-style{
-  background-color: darkolivegreen !important;
+  background-color: rgb(238, 197, 62) !important;
+  color: rgb(27, 26, 26);
+ 
 }
