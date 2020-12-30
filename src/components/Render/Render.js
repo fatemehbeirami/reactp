@@ -3,6 +3,7 @@
 
 
 import React, { Component } from 'react';
+import './Render.css' ; 
 
 class Render extends Component {
 state = {
@@ -10,7 +11,6 @@ state = {
     sell: []
 }
     componentDidMount() {
-        console.log('------------------');
         console.log(this.props.currency);
         let fetchBuy = [] ; 
         for(let i = 0 ; i < 15 ; i++){
@@ -37,9 +37,9 @@ state = {
                
                 {this.props.currency.map((currency) => {
                     return (
-                        <div  key={currency.id}  style = {{backgroundColor :'rgb(52, 55, 55)'}}>
-                            <p class="info-style">{currency.slug}</p>
-                            <p>{currency.p} :قیمت</p>
+                        <div className = "currency-Style"  key={currency.id}>
+                            <p class="info-style">{currency.title}</p>
+                            <p className = "price-style">{currency.p} :قیمت</p>
                         </div>
                     )
                 })}

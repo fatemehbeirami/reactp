@@ -1,0 +1,19 @@
+.currency-Style{
+      background-color: #C8E2F0;
+      box-shadow: 2px 4px 6px #293941;
+      width: 100%;
+      height: 70px;
+        border-radius: 3px;
+        margin: 10px 15px;
+
+    }
+    .info-style{
+        font-weight: bold;
+    }
+
+    @media (min-width : 900px){
+        .currency-Style{
+            width: 70%;
+            margin: auto;
+        }
+    }
