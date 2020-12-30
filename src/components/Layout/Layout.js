@@ -27,7 +27,7 @@ class Layout extends Component {
     render() {
         return (
             <>
-                <div>ّfateme beiramiiiiiiiiiiiiiiiiiii</div>
+                <div></div>
                 <div>helloooo</div>
                 <p>this is second commit</p>
                 <Render

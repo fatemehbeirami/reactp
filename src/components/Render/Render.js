@@ -38,7 +38,7 @@ state = {
                 <p>beiramii</p>
                 {this.props.currency.map((currency) => {
                     return (
-                        <div  key={currency.id} style = {{border : '1px solid black'}}>
+                        <div  key={currency.id} style = {{border : '1px solid white'}}  style = {{backgroundColor :' rgb(34, 32, 32)'}}>
                             <p class="info-style">{currency.slug}</p>
                             <p>{currency.p}</p>
                         </div>
