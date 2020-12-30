@@ -34,34 +34,16 @@ state = {
     render() {
         return (
             <div>
-                <p class="pname">beiramii</p>
-                <p>beiramii</p>
+               
                 {this.props.currency.map((currency) => {
                     return (
-                        <div  key={currency.id} style = {{backgroundColor :'rgb(68, 65, 65)'}}>
+                        <div  key={currency.id}  style = {{backgroundColor :'rgb(52, 55, 55)'}}>
                             <p class="info-style">{currency.slug}</p>
                             <p>{currency.p} :قیمت</p>
                         </div>
                     )
                 })}
-                <p>-----------------------------</p>
-                 {this.state.buy.map((buy) => {
-                    return (
-                        <div key={buy.id} style = {{border : '1px solid black'}}>
-                            <p>{buy.slug}</p>
-                            <p>{buy.p}</p>
-                        </div>
-                    )
-                })}
-                 <p>-----------------------------</p>
-                 {this.state.sell.map((sell) => {
-                    return (
-                        <div key={sell.id}  style = {{border : '1px solid black'}}>
-                            <p>{sell.slug}</p>
-                            <p>{sell.p}</p>
-                        </div>
-                    )
-                })}
+               
             </div>
         )
     }

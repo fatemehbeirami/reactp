@@ -21,15 +21,18 @@ class Layout extends Component {
                     });
                 }
                 this.setState({ currency: fetchCurrency });
-                // Salam!
+                
             })
     }
     render() {
         return (
             <>
-                <div></div>
-                <div>helloooo</div>
-                <p>this is second commit</p>
+                <div>ّ
+                    <p className='pname'>راهنما ی تشخیص</p>
+                    <p>sell>>فروش ... Buy>>خرید</p>
+                    <p className='pstyle'>chf:فرانک سویس ------ krw:وون کره جنوبی ------dny: یوان چین ------ rub: روبل روسیه ------ try:لیر ترکیه ------ inr:روپیه هند ------ aed:درهم امارت ------ eur:یورو ------ usd: دلار امریکایی  </p>
+                    <p className='pstylee'> aud:دلار استرالیا ------ iqd:دینار عراق ------ nok:کرون نروژ ------ sek:کرون سوئد ------ gbp:پوند استرلینگ ------ cad:دلار کانادا ------ jpy: ین ژاپن  </p>
+                    </div>
                 <Render
                     currency={this.state.currency} 
                 />

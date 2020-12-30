@@ -12,11 +12,23 @@ code {
     monospace;
 }
 .pname{
-  background-color: rgb(238, 170, 170);
-  color: antiquewhite;
+  background-color: rgb(238, 197, 62);
+  padding: 2%;
+  color: rgb(27, 26, 26);
 }
 .info-style{
   background-color: rgb(238, 197, 62) !important;
   color: rgb(27, 26, 26);
  
+}
+.pstyle{
+  text-align: right !important; 
+  margin: 3%;
+  color: aliceblue;
+}
+.pstylee{
+  text-align: right !important; 
+  margin-right: 12%;
+  color: aliceblue;
+  margin-bottom: 3%;
 }
